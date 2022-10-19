@@ -7,6 +7,7 @@ class queue
 	int max_size, current_size;
 public:
 	queue(const int size);
+	~queue();
 	void add(const r_book& obj);
 	void extract();
 	bool isFull();

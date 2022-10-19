@@ -1,5 +1,9 @@
 #include "queue.h"
 
+queue::~queue() {
+	delete[] arr;
+}
+
 queue::queue(const int size) {
 	arr = new r_book[size];
 	max_size = size;
